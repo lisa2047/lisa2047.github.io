@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="" description="keywords">
+
+	<title>Таблицы | EyeLenses</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<!-- HEADER -->
+		<header class="main-header">
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+					 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<!-- <li class="logo" ><a href="index.html"><img src="img/logo.png" alt=""></a></li> -->
+							<div class="nav navbar-nav nav-wrapper">
+							<li class="nav-item "><a href="index.html" class="nav-link">Главная</a></li>
+							<li class="nav-item"><a href="shop.html" class="nav-link">Марки</a></li>
+							<li class="nav-item"><a href="labels.html" class="nav-link active-nav">Таблицы <span class="sr-only">(current)</span></a></li>
+							<li class="nav-item"><a href="feedback.html" class="nav-link">Отзывы</a></li>
+							</div>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</header>
+		<!-- end header -->
+
+
+		<main>
+			<section class="inner section-1"></section>
+			<section class="labels inner">
+				<div class="container">
+					<div class="padding-15">
+						<h1>Таблицы</h1>
+
+
+						<!-- select -->
+						<div class="select">
+							<span>Ретейлер:</span>
+
+							<div class='dropdown'>
+								<button class="dropdown-toggle hide-on-mobile">
+									<span class='dropdown-toggle-text'>
+									<i class='icon icon-hotline'></i>iWear
+									</span>
+									<span class="caret"></span>
+								</button>
+
+								<ul class='dropdown-menu' id="dropdown-menu">
+									<li class='dropdown-item' data-value="lensmaster">iWear</li>
+									<li class='dropdown-item' data-value="optic-city">AiroMoist</li>
+									<li class='dropdown-item' data-value="zaidi-uvidish">NNC</li>
+									<li class='dropdown-item' data-value="doktor-linz">Доктор Линз</li>
+									<li class='dropdown-item' data-value="prozrenie">Прозрение / Prozrenie</li>
+									<li class='dropdown-item' data-value="kord">Crystal / AirWay</li>
+									<li class='dropdown-item' data-value="kronos">Кронос / Kronos</li>
+									<li class='dropdown-item' data-value="tochka-zreniya">Точка Зрения / Tochka Zreniya</li>
+									<li class='dropdown-item' data-value="amur-vision">Assol</li>
+									<li class='dropdown-item' data-value="likont">МКЛ-Био</li>
+									<li class='dropdown-item' data-value="optika-center">Airzone</li>
+									<li class='dropdown-item' data-value="perspectiva">Cont</li>
+									<li class='dropdown-item' data-value="ochki-dlya-vas">Очки для вас</li>
+									<li class='dropdown-item' data-value="in-optika-ru">in Optika.ru </li>
+									<li class='dropdown-item' data-value="club-optica-ru">Club Optica</li>
+									<li class='dropdown-item' data-value="happy-look">ACULIFE</li>
+								</ul>
+							</div>
+						</div>
+						<!-- end select -->
+
+						<!-- tables -->
+
+						<template id="table-row-template">
+							<ul class="table-row">
+								<li class="table-cell col-md-2 retailer"></li>
+								<li class="table-cell col-md-3 name"></li>
+								<li class="table-cell col-md-2 supplier"></li>
+								<li class="table-cell col-md-3 productName"></li>
+								<li class="table-cell col-md-2 price"><a href="#" class="price-link"></a></li>
+							</ul>
+						</template>
+
+						<div>
+							<div class="table table-one active">
+								<ul class="table-header table-row">
+									<li class="table-cell col-md-2">Ретейлер</li>
+									<li class="table-cell col-md-3">Частная торговая марка</li>
+									<li class="table-cell col-md-2">Поставщик</li>
+									<li class="table-cell col-md-3">Название продукта</li>
+									<li class="table-cell col-md-2">Цена продукта</li>
+								</ul>
+							</div>
+						</div>
+
+						<!--end tables -->
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<!-- end content -->
+	</div>
+	<!-- end wrapper -->
+
+	<!-- FOOTER -->
+	<footer class="main-footer">
+		<div class="container">
+			<div class="row">
+				<div class="copyright col-md-12">
+					<span>&copy; 2017 EYELenses Все права защищены</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src='js/dropdown.js'></script>
+	<!-- <script src="js/main.js"></script> -->
+
+	<!-- live-reload script -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+</html>
+
+
+
+
+
+

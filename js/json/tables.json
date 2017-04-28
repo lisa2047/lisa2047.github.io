@@ -1,0 +1,164 @@
+[
+	{
+	"retailer": "lensmaster",
+		"lensmaster": {
+			"retailerName": ["Линзмастер", "Линзмастер", "Линзмастер", "Линзмастер", "Линзмастер"], 
+			"name": ["Wear DD Supreme X", "iWear DD Supreme XX", "iWear DD Comfort Pro", "iWear XR Supreme", "iWear DR Basic"],
+			"supplier": ["Cooper Vision", "Cooper Vision", "Cooper Vision", "Cooper Vision", "Cooper Vision"],
+			"productName": ["Clariti 1 Day", "MyDay", "Proclear", "Biofinity", "Biomedics 55 UV / Clear Comfort"],
+			"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+
+			}
+	},
+	{
+	"retailer": "optic-city",
+		"optic-city": {
+				"retailerName": ["Оптик Сити", "Оптик Сити", "Оптик Сити"],
+				"name": ["AiroMoist 1Day", "AiroMoist BioTrue 1Day", "AiroMoist BioComfort"],
+				"supplier": ["Cooper Vision", "Bausch &amp; Lomb", "Cooper Vision"],
+				"productName": ["MyDay", "BioTrue", "Biofinity"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "zaidi-uvidish",
+		"zaidi-uvidish": {
+				"retailerName": ["Зайди Увидишь", "Зайди Увидишь", "Зайди Увидишь"],
+				"name": ["NNC 1-Day BIO", "NNC", "NNC Premium"],
+				"supplier": ["Cooper Vision", "Cooper Vision", "Cooper Vision"],
+				"productName": ["Proclear", "Clariti", "Biofinity"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "doktor-linz",
+		"doktor-linz": {
+				"retailerName": ["Доктор Линз", "Доктор Линз"],
+				"name": ["Доктор Линз / Doktor Linz", "Доктор Линз / Doktor Linz"],
+				"supplier": ["Cooper Vision", "Cooper Vision"],
+				"productName": ["MyDay", "Biofinity"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "prozrenie",
+		"prozrenie": {
+				"retailerName": ["Прозрение", "Прозрение"],
+				"name": ["My Day View", "My Month View"],
+				"supplier": ["Cooper Vision", "Cooper Vision"],
+				"productName": ["Clariti 1 Day", "Clariti"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "kord",
+		"kord": {
+				"retailerName": ["Корд", "Корд", "Корд", "Корд"],
+				"name": ["Crystal One Day", "Crystal Month", "AirWay DD", "AirWay Monthly"],
+				"supplier": ["Cooper Vision", "Cooper Vision", "Cooper Vision", "Cooper Vision"],
+				"productName": ["", "", "MyDay / Clariti 1 Day", "Biofinity / Clariti"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "kronos",
+		"kronos": {
+				"retailerName": ["Кронос", "Кронос", "Кронос"],
+				"name": ["Кронос М 1-Day / Kronos M 1-Day", "Кронос Biosoft Premium / Kronos Biosoft Premium", "Кронос М / Kronos M"],
+				"supplier": ["Interojo", "Cooper Vision", "Interojo"],
+				"productName": ["Morning Q 1-Day", "Biofinity", "Morning Q5"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "tochka-zreniya",
+		"tochka-zreniya": {
+				"retailerName": ["Точка Зрения"],
+				"name": ["Точка Зрения / Tochka Zreniya"],
+				"supplier": ["Cooper Vision"],
+				"productName": ["Clariti"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "amur-vision",
+		"amur-vision": {
+				"retailerName": ["Амур Вижн", "Амур Вижн"],
+				"name": ["Assol 1 Day Sence", "Assol Sunrise"],
+				"supplier": ["WellKang Ltd", "Diamond 55"],
+				"productName": ["Horien 1 Day", "Horien Diamond 55"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "likont",
+		"likont": {
+				"retailerName": ["Ликонт", "Ликонт", "Ликонт"],
+				"name": ["МКЛ-Био 1 Day / MKL-Bio 1 Day", "МКЛ-Био 14 Days / MKL-Bio 14 Days", "МКЛ-Био-O2 30 Days / MKL-Bio-O2 30 Days"],
+				"supplier": ["KONTAKT LENS", "KONTAKT LENS", "Cooper Vision"],
+				"productName": ["OK Vision Prima Bio", "OK Vision One Touch", "Clariti"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "optika-center",
+		"optika-center": {
+				"retailerName": ["Амур Вижн", "Амур Вижн"],
+				"name": ["Airzone 1 Day", "Airzone"],
+				"supplier": ["Cooper Vision", "Cooper Vision"],
+				"productName": ["Clariti 1 Day", "Clariti"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "perspectiva",
+		"perspectiva": {
+			"retailerName": ["Перспектива", "Перспектива", "Перспектива", "Перспектива", "Перспектива"], 
+			"name": ["AquaCont Q58", "AquaCont Q55", "SiliCont Q45", "PoliCont Q38", "ToriCont Q55"],
+			"supplier": ["Interojo", "Interojo", "Interojo", "Interojo", "Interojo"],
+			"productName": ["Morning Q Ultra, Adria One", "Morning Q55 vial", "Adria 0202", "Morning  Q38 vial", "High Definition Toric"],
+			"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+
+			}
+	},
+	{
+	"retailer": "ochki-dlya-vas",
+		"ochki-dlya-vas": {
+				"retailerName": ["Очки для вас"],
+				"name": ["Biolens"],
+				"supplier": ["Cooper Vision"],
+				"productName": ["Biofinity"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "in-optika-ru",
+		"in-optika-ru": {
+				"retailerName": ["InOptica.ru", "InOptica.ru", "InOptica.ru"],
+				"name": ["in Optika.ru Daily", "in Optika.ru O2", "in Optika.ru Monthly"],
+				"supplier": ["Interojo", "Interojo", "Interojo"],
+				"productName": ["Morning Q 1-Day", "Adria One", "Morning Q5"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "club-optica-ru",
+		"club-optica-ru": {
+				"retailerName": ["ClubOptica.ru", "ClubOptica.ru"],
+				"name": ["Club Optica 1 Day", "Club Optica"],
+				"supplier": ["Cooper Vision", "Cooper Vision"],
+				"productName": ["Clariti 1 Day", "Clariti"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	},
+	{
+	"retailer": "happy-look",
+		"happy-look": {
+				"retailerName": ["Счастливый взгляд", "Счастливый взгляд"],
+				"name": ["ACULIFE 1 DAY", "ACULIFE Crystal"],
+				"supplier": ["Cooper Vision", "Cooper Vision"],
+				"productName": ["Clariti / Офтальмикс One Day", "Clariti / Офтальмикс Profi"],
+				"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]
+		}
+	}
+]
