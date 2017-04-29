@@ -3,7 +3,7 @@
 	"retailer": "lensmaster",
 		"lensmaster": {
 			"retailerName": ["Линзмастер", "Линзмастер", "Линзмастер", "Линзмастер", "Линзмастер"], 
-			"name": ["Wear DD Supreme X", "iWear DD Supreme XX", "iWear DD Comfort Pro", "iWear XR Supreme", "iWear DR Basic"],
+			"name": ["iWear DD Supreme X", "iWear DD Supreme XX", "iWear DD Comfort Pro", "iWear XR Supreme", "iWear DR Basic"],
 			"supplier": ["CooperVision", "CooperVision", "CooperVision", "CooperVision", "CooperVision"],
 			"productName": ["Clariti 1 Day", "MyDay", "Proclear", "Biofinity", "Biomedics 55 UV/Clear Comfort"],
 			"productPrice": ["<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>", "<a href='#' class='price-link'>50RUR</a>"]

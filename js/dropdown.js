@@ -2,8 +2,41 @@ var dropdown = document.querySelector("#dropdown-menu"),
 	dropdownItems = document.querySelectorAll(".dropdown-item"),
 	table = document.querySelector('.table-one'),
 	tableRowTemplate = document.querySelector('#table-row-template'),
-	dataValue = 'lensmaster';
+	dataValue = "lensmaster";
+	console.log(window.location.href)
 
+	if (window.location.href.indexOf('?') != -1) {
+		dataValue = window.location.href.split('?')[1];
+		for (var g = 0; g < dropdownItems.length; g++) {
+			if (dropdownItems[g].getAttribute('data-value') === dataValue) {
+				$('.dropdown-toggle-text').html(dropdownItems[g].innerText);
+				// $(this).html()
+			}
+		}
+	}
+	
+	// console.log(dataValue)
+
+// ф-я смены значения в ввыпадашки
+
+// var valueDroptown = {
+// 									"happy-look": "ACULIFE",
+// 									"optic-city": "AiroMoist",
+// 									"optika-center": "Airzone",
+// 									"amur-vision": "Assol",
+// 									"club-optica-ru": "Club Optica",
+// 									"perspectiva": "Cont",
+// 									"kord": "Crystal/AirWay",
+// 									"lensmaster": "iWear",
+// 									"in-optika-ru": "in Optika.ru ",
+// 									"zaidi-uvidish": "NNC",
+// 									"doktor-linz": "Доктор Линз",
+// 									"kronos": "Кронос/Kronos",
+// 									"likont": "МКЛ-Био",
+// 									"ochki-dlya-vas": "Очки для вас",
+// 									"prozrenie": "Прозрение/Prozrenie",
+// 									"tochka-zreniya": "Точка Зрения/Tochka Zreniya"
+// }
 
 // ф-я отрисовки таблицы
 var parseRow = function (element) {
@@ -97,12 +130,38 @@ var parseData = function(array) {
 // 	parseData(items);
 // }
 
+// $(document).on('load', function () {
 
+// 	for (var p = 0; p < dropdownItems.length; p++) {
+// 		if (dropdownItems[p] === dataValue) {
+// 			console.log(dropdownItems[p] )
+// 			// $('.dropdown-toggle').on('load', function() {
+// 			// 	$('.dropdown-menu').slideToggle();
+// 			// });
+
+// 			// $('.dropdown-item').on('load', function(){
+// 			// 	$('.active').removeClass('active');
+
+// 			// 	$(this).addClass('active');
+
+// 			// 	$('.dropdown-toggle-text').html($(this).html());
+// 			// 	$('.dropdown-menu').delay(200).slideToggle();
+
+// 			// });
+
+// 		}
+// 	}
+// })
 $(document).ready(function(){
+
+
+
 
 	$('.dropdown-toggle').on('click', function() {
 		$('.dropdown-menu').slideToggle();
 	});
+
+
 
 
 	$('.dropdown-item').on('click', function(){
@@ -114,6 +173,8 @@ $(document).ready(function(){
 		$('.dropdown-menu').delay(200).slideToggle();
 
 	});
+
+	
 	load('js/json/tables.json', function (evt) {
 		var obj = JSON.parse(evt);
 		var items = [];
