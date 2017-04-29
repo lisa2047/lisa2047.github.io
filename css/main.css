@@ -206,17 +206,29 @@ header {
 	/*background-image: url("../img/sec_1.jpg");*/
 	background-size: cover;
 	background-position: center;
-	min-height: 550px;
-	background-image: url(../img/sec_1.jpg);
+	min-height: 531px;
+	/*background-image: url(../img/sec_1.jpg);*/
 }
 
 .carousel-inner .item .carousel-img {
 	width: 100%;
+	
 }
 
 .carousel-inner .item {
 	z-index: 14;
 	min-height: 550px;
+	
+}
+
+.carousel-inner .item:nth-child(1) {
+	background-image: url(../img/sec_1.jpg);
+}
+.carousel-inner .item:nth-child(2) {
+	background-image: url(../img/sec_1-2.jpg);
+}
+.carousel-inner .item:nth-child(3) {
+	background-image: url(../img/sec_1-3.jpg);
 }
 
 .carousel-caption {
@@ -240,13 +252,13 @@ header {
 }
 
 .item:first-child .carousel-text {
-	padding: 106px 0 120px;
+	padding: 95px 0 109px;
 }
 .item:nth-child(2) .carousel-text {
-	padding: 88px 0 110px;
+	padding: 77px 0 99px;
 }
 .item:last-child .carousel-text {
-	padding: 131px 0 149px;
+	padding: 120px 0 136px;
 }
 .section-1 b {
 	display: block;
@@ -606,6 +618,11 @@ a.name-lable {
 	padding: 0 15px;
 }
 
+.footnote {
+	padding: 0 20px;
+	margin-bottom: 70px;
+}
+
 /* ----------------------------------------------END TABLES (LABELS)--------------------------------------------- */
 
 /* ---------------------------------------------------FEEDBACK-------------------------------------------------- */
@@ -679,7 +696,7 @@ a.name-lable {
 }
 
 .user-name div span:nth-child(1) {
-	color: #054080;
+	color: /* #054080; */#ab425a;
 	font-size: 1.25rem;
 	/*line-height: 1.5;*/ /* на согласовании так*/
 	line-height: 1.2;
@@ -759,7 +776,7 @@ a.name-lable {
 
 .feedback-container .link {
 	float: right;
-	color: #054080;
+	color: /*#054080;*/#ab425a;
 	font-size: 1rem;
 }
 
