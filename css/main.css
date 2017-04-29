@@ -573,11 +573,11 @@ a.name-lable {
 	display: table-row;
 	/* height: 48px; */
 	padding: 0;
-	color: #ede8eb;
+	color: #585858;
 }
 
 .table-row:nth-child(odd):not(:first-child) {
-	background-color: #e4e6ec;
+	background-color: #ede8eb;
 }
 
 .table-cell {
