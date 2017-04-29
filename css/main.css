@@ -254,13 +254,13 @@ header {
 }
 
 .item:first-child .carousel-text {
-	padding: 95px 0 109px;
+	padding: 93px 0 106px;
 }
 .item:nth-child(2) .carousel-text {
-	padding: 77px 0 99px;
+	padding: 77px 0 92px;
 }
 .item:last-child .carousel-text {
-	padding: 120px 0 136px;
+	padding: 118px 0 135px;
 }
 .section-1 b {
 	display: block;
