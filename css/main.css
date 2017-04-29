@@ -192,6 +192,8 @@ header {
 /* -------------------------------------END FOOTER------------------------------------------- */
 
 .section-1.inner {
+	position: relative;
+	z-index: 10;
 	padding: 0;
 	min-height: 160px;
 	background-image: url(../img/sec_1.jpg);
