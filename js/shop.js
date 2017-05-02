@@ -1,18 +1,13 @@
 'use strict';
 window.dataValue = null; 
-var links = document.querySelectorAll('.name-lable');/*,
-	dataValue = null;*/
+var links = document.querySelectorAll('.name-lable');
 
 for (var i = 0; i < links.length; i++) {
 
 	links[i].addEventListener('click', function(evt) {
 		evt.preventDefault();
 		var clickedLink = evt.target.parentNode;
-		window.dataValue = clickedLink.getAttribute('data-value');
-		console.log(window.dataValue)
-		document.location.href = "labels.html?" + window.dataValue;
+		var dataValue = clickedLink.getAttribute('data-value');
+		document.location.href = "labels.html?" + dataValue;
 	})
 }
-
-// $(document).ready(function(){
-// })

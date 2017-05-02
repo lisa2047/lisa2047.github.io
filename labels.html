@@ -86,7 +86,7 @@
 						<!-- tables -->
 
 						<template id="table-row-template">
-							<ul class="table-row">
+							<ul class="table-row templated-row">
 								<li class="table-cell col-md-2 retailer"></li>
 								<li class="table-cell col-md-3 name"></li>
 								<li class="table-cell col-md-2 supplier"></li>
@@ -111,6 +111,7 @@
 					</div>
 					<div class="footnote">
 						<span> * цены взяты с Яндекс Маркет</span>
+						<span class="error-message hidden"> Ошибка при загрузке данных</span>
 					</div>
 				</div>
 			</section>
@@ -140,7 +141,7 @@
 	<script src="js/main.js"></script>
 
 	<!-- live-reload script -->
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 
 </body>
 </html>
